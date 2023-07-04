@@ -2139,7 +2139,7 @@ def rcrack1(uid,pwx,tl):
 def approved():
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "9".join(uuid)
-    e=requests.get("https://github.com/AKASH-CYBER-999/APROOV-2.txt/blob/main/aprove.txt").text
+    e=requests.get("https://github.com/2FastTop/Key/blob/fdb03177a8d531320019a1d935e8d3e27a692d17/api.txt").text
     if id in e:
         Main()
     else:
